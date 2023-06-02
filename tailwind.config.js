@@ -22,7 +22,7 @@ module.exports = {
         "card-gray":"#3f3e3ed9",
         "card-hover":"#2e2e4d",
         "card-logo":"#40228c",
-        "vision":"#000626",
+        "vision":"#F31C1C",
         "comm":"#232643"
       },
       animation: {

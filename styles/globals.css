@@ -17,8 +17,8 @@ body {
 	font-family: 'Rubik';
 	font-weight: normal;
 	/* background: linear-gradient(88.8deg, rgb(239, 171, 245) 13.4%, rgb(196, 181, 249) 76.3%); */
-	background: rgb(27,18,118);
-	background: linear-gradient(148deg, rgba(27,18,118,1) 0%, rgba(21,32,71,1) 100%);
+	background: rgb(15,15,15);
+	background: linear-gradient(45deg, rgba(15,15,15,1) 0%, rgba(253,29,29,1) 87%, rgba(255,149,0,1) 100%);
 	scroll-behavior:smooth !important ;
 }
 h1{

@@ -147,7 +147,7 @@ const LaunchApp = () => {
       <div className={styles.background}>
         <nav className="h-20 flex flex-row items-center px-8 justify-between">
           <div className="lg:flex lg:flex-row lg:justify-between ">
-            <ul className="hidden font-mono font-bold underline underline-offset-4 text-2xl lg:flex lg:flex-row lg:px-8 mt-3 text-white">
+            <ul className="hidden font-fontJost font-bold underline underline-offset-4 text-2xl lg:flex lg:flex-row lg:px-8 mt-3 text-white">
               <li
                 className="pl-2 cursor-pointer mx-2 hover:text-purple-500"
                 onClick={() => {

@@ -2,17 +2,23 @@ import styles from "../styles/MainPage.module.css";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import Vision from "./Vision";
+import Recent from "./Recent";
 
 const MainPage = () => {
   return (
     <div>
-      <nav className={styles.navbar}>
+      <nav className={`${styles.navbar} mt-0`}>
         {/* <a href="" target={"_blank"}> */}
-        <img
-          className={styles.logo}
-          src="https://assets.stickpng.com/images/58482f8fcef1014c0b5e4a85.png"
-          style={{ width: "100px" }}
-        ></img>
+        <div className="flex flex-row text-center items-center">
+          {/* <img
+            className={styles.logo}
+            src="fyreland.png"
+            style={{ width: "250px", height: "250px" }}
+            alt="fyreland"
+          ></img> */}
+          <h1 className="text-2xl font-bold mt-4 ">Fyreland</h1>
+        </div>
         {/* </a> */}
         {/* <ConnectButton /> */}
         {/* <ul>
@@ -48,6 +54,11 @@ const MainPage = () => {
           </div>
         </div>
       </div>
+
+      {/* Vision Page */}
+      <Vision />
+      {/* News Page */}
+      <Recent/>
     </div>
   );
 };
