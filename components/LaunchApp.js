@@ -202,7 +202,7 @@ const LaunchApp = () => {
                   className="bg-gradient-to-r from-blue-500 to-violet-500 border border-white m-4 md:p-2 md:m-8 rounded-lg transition ease-in-out duration-200 delay-75 animate-glow hover:-translate-y-1 hover:scale-110"
                   style={{ position: "relative" }}
                 >
-                  <div className="imgWrapper ml-6">
+                  <div className="imgWrapper m-auto">
                     <style jsx>
                       {`
                         .imgWrapper {
