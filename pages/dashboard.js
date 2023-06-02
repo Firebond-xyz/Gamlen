@@ -2,7 +2,8 @@ import React from "react";
 import "semantic-ui-css/semantic.min.css";
 import DashboardGrid from "../components/DashboardGrid";
 import DashboardTable from "../components/DashboardTable";
-const Dashboard = () => {
+
+const dashboard = () => {
   return (
     <>
       <style jsx>
@@ -31,13 +32,16 @@ const Dashboard = () => {
 
       <div className="App-main">
         <div>
-          <h1 className="pt-8 text-center font-bold text-5xl">Dashboard</h1>
+          <h1 className="pt-7 text-center font-bold text-5xl">Dashboard</h1>
         </div>
         <DashboardGrid />
+        <div>
+          <h1 className="pt-7 text-center font-bold text-5xl">Transaction Status</h1>
+        </div>
         <DashboardTable />
       </div>
     </>
   );
 };
 
-export default Dashboard;
+export default dashboard;

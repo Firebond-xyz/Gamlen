@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, Statistic } from "semantic-ui-react";
-
 const DASHBOARD_BOXES = [
   {
     title: "Total Users",

@@ -3,6 +3,8 @@ import 'tailwindcss/tailwind.css';
 import "../styles/globals.css";
 import "../styles/MainPage.module.css";
 import "../styles/LaunchApp.module.css";
+import "../components/DashboardGrid/DashboardGrid.css";
+import "../components/DashboardTable/DashboardTable.css";
 // // import { useRouter } from "next/router";
 import "@rainbow-me/rainbowkit/styles.css";
 import ContextProvider from "../utils/Context";
