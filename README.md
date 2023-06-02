@@ -2,7 +2,7 @@
   <a href="" rel="noopener">
 <img src="https://uploads-ssl.webflow.com/6458f7b5632c534c43d7bf2f/645b6ad92c2a7120c874ff53_FIREBOND2x.png"></a>
   
-                 𝐅𝐲𝐫𝐞𝐋𝐚𝐧𝐝 :  A Gaming Asset MarketPlace ( Buy , Sell , Rent and Lend) Powered By Zero Knowledge Proof Techniques 
+         𝐅𝐲𝐫𝐞𝐋𝐚𝐧𝐝 :  A Gaming Asset MarketPlace (Buy , Sell , Rent and Lend) Powered By Zero Knowledge Proof Techniques 
 
 </p>
   
