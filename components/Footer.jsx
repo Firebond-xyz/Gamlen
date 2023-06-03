@@ -16,7 +16,7 @@ export default function Footer() {
   return (
     <div className="bg-black p-8 lg:pt-3 pb-6 lg:flex lg:flex-row lg:justify-between rounded-t-xl">
       <div className="flex lg:flex-col content-center align-middle sm:flex flex-row items-center ml-24">
-        <Image src={Logo} width={150} height={80} alt="Logo" />
+        <Image src={Logo} width={78} height={45} alt="Logo" />
         <p className="font-fontDM pt-2 text-white text-2xl ml-6">
           Welcome to the Gaming DeFi future!
         </p>
