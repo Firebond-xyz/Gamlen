@@ -33,6 +33,7 @@ export default function NftGallery({
     let contract = new ethers.Contract("0x005Fa83d9894653CE120672dca54E2E0aAbf1C31", abi, provider);
 
     const usernames = [
+      {"name": "MagicManiac", "description": "Crazy for magical powers", "speed": 3, "endurance": 2, "armor": 3},
       {"name": "ShadowKnight", "description": "Stealthy warrior in shadows", "speed": 5, "endurance": 5, "armor": 0},
       {"name": "PixelAssassin", "description": "Killer with pixel precision", "speed": 8, "endurance": 1, "armor": 1},
       {"name": "MysticMage", "description": "Mysterious wielder of magic", "speed": 3, "endurance": 3, "armor": 2},
@@ -45,7 +46,6 @@ export default function NftGallery({
       {"name": "CosmicCrusader", "description": "Crusader of the cosmos", "speed": 6, "endurance": 4, "armor": 6},
       {"name": "StormBringer", "description": "Brings storms and destruction", "speed": 8, "endurance": 9, "armor": 5},
       {"name": "DragonSlayer", "description": "Slayer of fearsome dragons", "speed": 7, "endurance": 4, "armor": 4},
-      {"name": "MagicManiac", "description": "Crazy for magical powers", "speed": 3, "endurance": 2, "armor": 3},
       {"name": "IceQueen", "description": "Cold but beautiful ruler", "speed": 2, "endurance": 1, "armor": 3},
       {"name": "StealthHunter", "description": "Hunter in the shadows", "speed": 6, "endurance": 8, "armor": 2},
       {"name": "GhostlyGoblin", "description": "Eerie goblin phantom", "speed": 4, "endurance": 7, "armor": 8},
@@ -67,7 +67,6 @@ export default function NftGallery({
       const contractData = await contract.characters(i);
         nftsFormatted.push({
           id: i,
-          url: contractData[5],
           owner: contractData[4],
           title: usernames[i].name,
           speed: signalData[i][1].a,
@@ -196,11 +195,16 @@ function NftCard({ nft, currAccount }) {
     }
     setIsVerifyingProof(false);
   }
+  
 
   return (
-    <div className={styles.card_container} id={"what"}>
+    <div className={styles.card_container} id= {"what"}>
       <div className={styles.image_container}>
-        <img src={nft.url}></img>
+       
+           <img src="nft.gif"></img>
+
+        
+       
       </div>
       <div className={styles.info_container}>
         <div className={styles.title_container}>
@@ -222,7 +226,7 @@ function NftCard({ nft, currAccount }) {
             {nft.verified !== "verified" ? (
               <a href="" onClick={(e) => handleVerification(e)}><img
                 src={
-                  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Twitter_Verified_Badge.svg/2048px-Twitter_Verified_Badge.svg.png"
+                  "https://img.icons8.com/?size=512&id=98A4yZTt9abw&format=png"
                 }
                 width="20px"
                 height="20px"
@@ -230,7 +234,7 @@ function NftCard({ nft, currAccount }) {
             ) : null}
             {currAccount !== nft.owner && <a href="" onClick={(e) => bidOnNft(e, nft.id)}><img
                 src={
-                  "https://i.postimg.cc/3NgNhYvd/dollar.png"
+                  "https://img.icons8.com/?size=512&id=FraL7eb8VMcE&format=png"
                 }
                 width="20px"
                 height="20px"
