@@ -19,8 +19,8 @@ export default function Vision() {
               .rocket {
                 display: initial;
                 position: absolute;
-                left: 30%;
-                top: -2rem;
+                left: 10%;
+                top: -0.2rem;
                 opacity: 0.5;
               }
             }
