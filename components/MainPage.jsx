@@ -10,15 +10,15 @@ const MainPage = () => {
     <div>
       <nav className={`${styles.navbar} mt-0`}>
         {/* <a href="" target={"_blank"}> */}
-        <div className="flex flex-row text-center items-center">
-          {/* <img
+        
+          <img
             className={styles.logo}
             src="fyreland.png"
-            style={{ width: "250px", height: "250px" }}
+            style={{ width: "75px", height: "75px" }}
             alt="fyreland"
-          ></img> */}
-          <h1 className="text-2xl font-bold mt-4 ">Fyreland</h1>
-        </div>
+          ></img> 
+         
+       
         {/* </a> */}
         {/* <ConnectButton /> */}
         {/* <ul>
@@ -35,22 +35,20 @@ const MainPage = () => {
         </div>
         <header className={styles.header_container}>
           <h1>
-            Buy and Lend <span>Verified NFTs</span> Here
+            <span>FyreLand</span> 
           </h1>
-          <p>By leveraging the power of zero knowledge proofs, </p>
+          <p> "Secure. Empowering. Profitable. Unleash the Future of Gaming." </p>
           <p>
-            we're able to <span>establish verifiable claims</span>
-            about NFT game character attributes without compromising user
-            privacy or security.
+          <span>powered by zero knowledge proofs</span>
           </p>
         </header>
 
         <div className={styles.buttonsContainer}>
           <div className={styles.button}>
-            <Link href="/marketplace">Show NFT</Link>
+            <Link href="/marketplace">Go To Marketplace</Link>
           </div>
           <div className={styles.button}>
-            <Link href="/buy">Lend NFT</Link>
+            <Link href="/buy">Lend and Rent Assets</Link>
           </div>
         </div>
       </div>

@@ -32,12 +32,13 @@
 }
 
 .header_container p span{
-	color: #D73719;
+	color: #8d9bec;
 	width: 197px;
 height: 36px;
+font : bold ;
 
 
-background: rgba(255, 255, 255, 0.08);
+background: rgba(241, 8, 8, 0.08);
 border-radius: 8px;
 	padding: .5rem 1rem .5rem .5rem;
 	margin-left: .3rem;

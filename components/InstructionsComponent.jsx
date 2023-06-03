@@ -8,15 +8,22 @@ export default function InstructionsComponent() {
 	};
 
 	return (
+
+		
+		
 		<div className={styles.container}>
+			
+			
 			<header className={styles.header_container}>
 				<h1>
-					Attribute <span>Verified</span> Marketplace
+				<span>FyreLand</span> Marketplace
 				</h1>
-				<p>By leveraging the power of zero knowledge proofs, </p>
-				<p>we're able to <span>establish verifiable claims</span>
-					about NFT game character attributes without compromising user privacy or security.
-				</p>
+				<p>A Gaming Asset Marketplace </p>
+          <p>
+          Where You can Buy , Sell By verifying claims , Lend and Rent your Nfts<span>powered by zero knowledge proofs</span>
+            
+           
+          </p>
 			</header>
 
 			{/* <div className={styles.buttons_container}>
@@ -27,5 +34,11 @@ export default function InstructionsComponent() {
 				</a>
 			</div> */}
 		</div>
+
+	
+
+	
 	);
+
+	
 }

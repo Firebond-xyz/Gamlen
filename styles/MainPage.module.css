@@ -50,15 +50,15 @@
 }
 
 .header_container p span{
-	color: #FFFF;
-	width: 197px;
-height: 36px;
+	color: #13bbe6;
+	width: 175px;
+height: 30px;
+font : bold ;
 
-
-background: rgba(255, 255, 255, 0.277);
-border-radius: 8px;
-	padding: .5rem 0.2rem .5rem .5rem;
-	margin-left: .3rem;
+background: rgba(228, 13, 13, 0.277);
+border-radius: 5px;
+	padding: .2rem 0.2rem .2rem .2rem;
+	margin-left: .2rem;
 }
 
 

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Astro from "../public/ape.png";
+import Astro from "../public/ape.gif";
 import Rocket from "../public/vision/rocket.webp";
 
 export default function Vision() {
@@ -139,31 +139,20 @@ export default function Vision() {
 
         <div className="flex-1 pr-8 lg:flex-1 text-white">
           <h1 className="text-4xl pb-4 font-bold">Vision</h1>
-          <article className="text-xl lg:pr-20">
+          <article className="text-l lg:pr-20">
             <p className="pb-8">
               {" "}
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              illum deleniti laborum quisquam officia atque, culpa minima fugit
-              assumenda amet?
+              FyreLand vision is to revolutionize the gaming industry by providing a secure and transparent marketplace that empowers gamers, game developers, and NFT enthusiasts. We envision a future where players can confidently validate the attributes of  game characters without compromising their Privacy. By leveraging zk proof technology, we simplify the web3 gaming ecosystem, fostering trust and driving mass adoption of blockchain games.
             </p>
 
             <p className="sm:flex-1 pb-8">
               {" "}
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia,
-              fugit nulla. Placeat iusto molestias beatae quasi aperiam
-              quibusdam possimus, nemo assumenda, a nulla, perspiciatis nihil
-              magnam cumque molestiae exercitationem earum!
+              We are committed to enhancing the gaming experience by enabling gamers to generate income through their gaming assets and save money by offering a rental system for in-game assets. Additionally, we aim to create an inclusive secondary market where game developers and gamers alike can profit through an open, transparent, and decentralized revenue sharing model on every transaction within our platform.
             </p>
             <p className="sm:flex-1 pb-8">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod
-              repellendus reiciendis nesciunt sed odit architecto, quo totam!
-              Sint quisquam sapiente, corrupti aspernatur ea numquam nisi
-              suscipit praesentium doloribus quos possimus qui molestiae libero
-              debitis, magni nihil nesciunt cum pariatur? Voluptates voluptas
-              reiciendis molestiae. Perspiciatis magni iusto expedita nobis
-              atque nisi!
+            Join us on this exciting journey as we reshape the future of gaming, revolutionizing the way games are played, assets are owned, and income is generated."
             </p>
-            <p className="pb-0"> Welcome to the Gaming DeFi future! </p>
+            <p className="pb-0"> Welcome to the FyreLand </p>
           </article>
         </div>
       </section>
