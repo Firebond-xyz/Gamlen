@@ -9,20 +9,17 @@ const dashboard = () => {
       <style jsx>
         {`
           .App-main {
-            background: rgb(27, 18, 118);
+            background: rgb(15, 15, 15);
             background: linear-gradient(
-              148deg,
-              rgba(27, 18, 118, 1) 0%,
-              rgba(21, 32, 71, 1) 100%
+              45deg,
+              rgba(15, 15, 15, 1) 0%,
+              rgba(253, 29, 29, 1) 87%,
+              rgba(255, 149, 0, 1) 100%
             );
             height: 1000px;
           }
           h1 {
-            background: linear-gradient(
-              140deg,
-              rgba(54, 190, 255, 1) 0%,
-              rgba(115, 63, 241, 1) 100%
-            );
+            background: linear-gradient(140deg, rgb(174, 186, 192) 0%, rgb(255, 171, 2) 100%);
             background-clip: text;
             color: transparent;
           }
@@ -36,7 +33,9 @@ const dashboard = () => {
         </div>
         <DashboardGrid />
         <div>
-          <h1 className="pt-7 text-center font-bold text-5xl">Transaction Status</h1>
+          <h1 className="pt-7 text-center font-bold text-5xl">
+            Transaction Status
+          </h1>
         </div>
         <DashboardTable />
       </div>

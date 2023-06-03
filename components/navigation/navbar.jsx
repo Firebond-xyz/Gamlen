@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       
-      <a href="https://alchemy.com/?a=create-web3-dapp" target={"_blank"}>
+      <a href="/" target={""}>
         <img
           className={styles.logo}
             src="fyreland.png"

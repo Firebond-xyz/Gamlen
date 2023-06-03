@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import Vision from "./Vision";
 import Recent from "./Recent";
+import Footer from "./Footer";
 
 const MainPage = () => {
   return (
@@ -57,6 +58,8 @@ const MainPage = () => {
       <Vision />
       {/* News Page */}
       <Recent/>
+      {/* Footer Page */}
+      <Footer/>
     </div>
   );
 };

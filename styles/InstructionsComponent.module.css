@@ -21,7 +21,7 @@
 
 
 .header_container h1 span{
-	background: linear-gradient(140deg, rgba(54,190,255,1) 0%, rgba(115,63,241,1) 100%);
+	background: linear-gradient(140deg, rgb(174, 186, 192) 0%, rgb(255, 171, 2) 100%);
 	background-clip: text;
 	color: transparent;
 }

@@ -54,9 +54,9 @@ const RecentCard = ({ imgSrc, content }) => {
 
 export default function Recent() {
   return (
-    <div className="flex flex-col items-center bg-inherit pl-4 pr-4">
+    <div className="flex flex-col items-center bg-inherit pl-4 pr-4 sm:mt-40">
       <section className="text-center">
-        <h2 className="font-bold text-white font-bold text-4xl pt-4">
+        <h2 className="font-bold text-white text-4xl pt-4">
           Recent News
         </h2>
       </section>
