@@ -11,6 +11,7 @@
 - [Problem Statement](#problem_statement)
 - [Idea / Solution](#idea)
 - [Flowchart](#getting_started)
+- [Vision](#vision)
 
 
 ## 🧐 Problem Statement <a name = "problem_statement"></a>
@@ -33,6 +34,14 @@ The solution of all these problem is  " 𝐅𝐲𝐫𝐞𝐋𝐚𝐧𝐝 : 𝘈 
 𝐅𝐲𝐫𝐞𝐋𝐚𝐧𝐝 : On our Gaming  marketplace, Users can securely validate claims about the attributes or properties or informations  of NFT game characters without disclosing sensitive information. Our Marketplace ensures that the character's attributes are securely transferred and verified, reducing the risk of unauthorized access and potential loss.By leveraging zero knowledge proof technology, Our Marketplace Dapp  simplifies the web3 gaming ecosystem . This will increase the trust of users and will help us in mass adoption of blockchain games . 
 
 𝐅𝐲𝐫𝐞𝐋𝐚𝐧𝐝 also empowers the gaming experience by helping gamers generate income through their gaming assets and save money at the same time by letting gamers rent in-game assets instead of buying them . Our platform also unlocks an untapped secondary market around in-game assets where both the game developers and gamers generate profit through an open, transparent and decentralised revenue sharing model on every transactions done in an in-game asset on the platform. 
+
+## 🚀 Vision <a name = "vision"></a>
+
+FyreLand vision is to revolutionize the gaming industry by providing a secure and transparent marketplace that empowers gamers, game developers, and NFT enthusiasts. We envision a future where players can confidently validate the attributes of game characters without compromising their Privacy. By leveraging zk proof technology, we simplify the web3 gaming ecosystem, fostering trust and driving mass adoption of blockchain games.
+
+We are committed to enhancing the gaming experience by enabling gamers to generate income through their gaming assets and save money by offering a rental system for in-game assets. Additionally, we aim to create an inclusive secondary market where game developers and gamers alike can profit through an open, transparent, and decentralized revenue sharing model on every transaction within our platform.
+
+Our vision is to be the go-to marketplace for NFT game characters and in-game assets, providing a seamless and secure environment that empowers the gaming community and promotes the growth of the blockchain gaming industry. Through innovation, transparency, and user-centric design, we strive to create a vibrant ecosystem that unlocks new opportunities and redefines the way gamers interact with virtual assets
 
 
 
