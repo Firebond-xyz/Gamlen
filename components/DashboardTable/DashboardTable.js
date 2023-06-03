@@ -3,10 +3,17 @@ import { Table } from "semantic-ui-react";
 
 const TABLE_DATA = [
   {
-    name: "Lorem Ipsum",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    owner: "John Doe",
-    status: "in progress",
+    name: "Rent Request",
+    description: "Renting Request for AK47 #1 for 4 days .",
+    owner: "aadi.eth",
+    status: "Transaction Pending",
+  },
+
+  {
+    name: "Rent Request",
+    description: "Renting Request for Boston Apartment #3 for 2 days .",
+    owner: "aadi.eth",
+    status: "Transaction Pending",
   },
 ];
 
