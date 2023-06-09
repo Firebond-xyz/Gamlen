@@ -11,6 +11,8 @@ import bugatti from "../public/nfts/bugatti.jpeg";
 import desert_eagle from "../public/nfts/desert_eagle.jpeg";
 import ktpo from "../public/nfts/ktpo.jpeg";
 import rr from "../public/nfts/rolls_roycee.jpeg";
+import nft1 from "../public/nfts/nft1.gif";
+import nft2 from "../public/nfts/nft2.gif" ;
 import { DataContext } from "../utils/Context";
 import styles from "../styles/LaunchApp.module.css";
 
@@ -32,7 +34,7 @@ const LaunchApp = () => {
   const nfts = [
     {
       name: "AK47",
-      image: ak,
+      image: nft1,
       img: "https://gateway.pinata.cloud/ipfs/QmfNvXret5ftt7bkhZip1twFSTdX1i5teNK36p2B4MS5Az/ak47.jpeg",
       tokenId: "1",
       category: "rent",
@@ -65,7 +67,7 @@ const LaunchApp = () => {
     {
       name: "Boston Apartment",
       image: boston,
-      img: "https://gateway.pinata.cloud/ipfs/QmfNvXret5ftt7bkhZip1twFSTdX1i5teNK36p2B4MS5Az/boston.jpg",
+      img: "https://ipfs.io/ipfs/QmUPEdvrXzWkhrfvHWFRCpVSmxUACF8HcBvBKqZF9NjQBk",
       tokenId: "3",
       category: "rent",
       "description?": "Medium apartment in Boston",
